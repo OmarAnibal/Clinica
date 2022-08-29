@@ -1,4 +1,4 @@
-package com.clinica.model;
+ package com.clinica.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,6 +13,7 @@ import javax.validation.constraints.Size;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
+
 
 @Schema(description = "Paciente Model")
 @Entity
